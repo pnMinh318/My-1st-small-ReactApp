@@ -1,0 +1,31 @@
+{
+  "tasks": [
+    {
+      "id": 2,
+      "text": "SN tui",
+      "day": "2021-08-28",
+      "reminder": true,
+      "detail": "detail 2"
+    },
+    {
+      "id": 5478,
+      "text": "SN Ngọc",
+      "day": "2021-10-16",
+      "reminder": true,
+      "detail": "detail "
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "firstname": "Pham ",
+    "lastname": " Minh Nhat",
+    "age": 21,
+    "email": "18110318@student.hcmute.edu.vn"
+  }
+}
