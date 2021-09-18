@@ -40,12 +40,12 @@ function App() {
   }
   const [onAddTask,setAddTask] = useState(false)
   const [tasks,setTask] = useState([])
-  let myName='Nhật Minh'
+  //let myName='Nhật Minh'
   const headingStyle={color: 'blue'}
   return (
     <Router>
       <div className='container' >
-      <p style={headingStyle} > Hello {myName}</p>
+      <p style={headingStyle} > Hello</p>
       <Header titleHeader   ='Task-Tracker' 
               onAddTask     ={()=> setAddTask(!onAddTask)} 
               showAddTask   ={onAddTask}/>
